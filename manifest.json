@@ -1,0 +1,9 @@
+{
+  "id": "pkm-mindmap",
+  "name": "PKM Mindmap",
+  "version": "0.1.9",
+  "minAppVersion": "1.8.0",
+  "description": "Create and edit visual PKM mindmaps with WMM files, notes, relationships, DeepSeek AI, automatic tagging/categorization, and Obsidian CLI commands.",
+  "author": "Moovent",
+  "isDesktopOnly": false
+}

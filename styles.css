@@ -1,0 +1,52 @@
+.pkm-mindmap-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--background-primary);
+}
+
+.pkm-host-toolbar {
+  display: flex;
+  align-items: center;
+  gap: var(--size-4-1);
+  flex: 0 0 auto;
+  padding: var(--size-4-2);
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+
+.pkm-host-toolbar button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--size-4-1);
+}
+
+.pkm-host-file {
+  min-width: 0;
+  margin-inline-start: var(--size-4-1);
+  overflow: hidden;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pkm-host-file.is-dirty::after {
+  content: " •";
+  color: var(--text-accent);
+}
+
+.pkm-mindmap-frame {
+  width: 100%;
+  min-height: 0;
+  flex: 1 1 auto;
+  border: 0;
+  background: var(--background-primary);
+}
+
+.pkm-path-modal .setting-item,
+.pkm-confirm-modal .setting-item {
+  border-top: 0;
+}

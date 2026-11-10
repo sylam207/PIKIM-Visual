@@ -1,0 +1,9 @@
+{
+  "id": "pkm-mindmap",
+  "name": "PKM Mindmap",
+  "version": "0.1.2",
+  "minAppVersion": "1.13.0",
+  "description": "Create and edit visual PKM mindmaps with WMM files, relationships, tags, notes, attachments, and reusable global parts.",
+  "author": "Moovent",
+  "isDesktopOnly": false
+}
